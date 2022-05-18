@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent slave3
     stages {
         stage('github-clone') {
             steps {
