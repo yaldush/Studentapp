@@ -29,12 +29,12 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://34.125.255.49:8081/repository/cicd/</url>
+            <url>http://34.125.185.184:8081/repository/cicd/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://34.125.255.49:8081/repository/cicd/</url>
+            <url>http://34.125.185.184:8081/repository/cicd/</url>
         </snapshotRepository>
     </distributionManagement>
   <dependencies>
