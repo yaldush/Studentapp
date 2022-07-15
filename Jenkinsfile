@@ -1,5 +1,5 @@
 pipeline {
-    agent slave3
+    agent any
     stages {
         stage('github-clone') {
             steps {
@@ -21,11 +21,11 @@ pipeline {
                 
             }
 		} */
-        stage('mvn-nexus-backup') {
+       /* stage('mvn-nexus-backup') {
             steps {
                 sh 'mvn deploy'    
             }
-		}
+		}*/
 
     }
 }
